@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="150dp"
         android:layout_margin="16dp"
-        android:textSize="32dp"
+        android:textSize="50dp"
         android:fontFamily="@font/staatliches_regular"
         android:textAlignment="textEnd"
         android:ems="10"
