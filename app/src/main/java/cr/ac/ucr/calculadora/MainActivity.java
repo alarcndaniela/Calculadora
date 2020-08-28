@@ -10,7 +10,7 @@ import static java.lang.Math.floor;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
     //declaración
-    TextView Resultado;
+    private TextView Resultado;
     private double resultado;
     private String mostrar;
     private String memoria;
