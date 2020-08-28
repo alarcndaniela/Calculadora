@@ -10,43 +10,16 @@ import static java.lang.Math.floor;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
     //declaración
-    Button btn_uno, btn_dos,
-            btn_tres, btn_cuatro,
-            btn_cinco, btn_seis,
-            btn_siete, btn_ocho,
-            btn_nueve, btn_cero,
-            btn_sumar, btn_restar,
-            btn_multiplicar, btn_dividir,
-            btn_borrar, btn_punto,
-            btn_igual;
     TextView Resultado;
-    double resultado;
-    String mostrar, memoria, operacion;
+    private double resultado;
+    private String mostrar;
+    private String memoria;
+    private String operacion;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        //Botones
-        btn_cero = (Button)findViewById(R.id.btn_cero);
-        btn_uno = (Button)findViewById(R.id.btn_uno);
-        btn_dos = (Button)findViewById(R.id.btn_dos);
-        btn_tres = (Button)findViewById(R.id.btn_tres);
-        btn_cuatro = (Button)findViewById(R.id.btn_cuatro);
-        btn_cinco = (Button)findViewById(R.id.btn_cinco);
-        btn_seis = (Button)findViewById(R.id.btn_seis);
-        btn_siete = (Button)findViewById(R.id.btn_siete);
-        btn_ocho = (Button)findViewById(R.id.btn_ocho);
-        btn_nueve = (Button)findViewById(R.id.btn_nueve);
-        btn_dividir = (Button)findViewById(R.id.btn_dividir);
-        btn_multiplicar = (Button)findViewById(R.id.btn_multiplicar);
-        btn_sumar = (Button)findViewById(R.id.btn_sumar);
-        btn_restar = (Button)findViewById(R.id.btn_restar);
-        btn_borrar = (Button)findViewById(R.id.btn_borrar);
-        btn_punto = (Button)findViewById(R.id.btn_punto);
-        btn_igual = (Button)findViewById(R.id.btn_igual);
-
         //TextView
         Resultado = (TextView)findViewById(R.id.area_resultado);
     }
